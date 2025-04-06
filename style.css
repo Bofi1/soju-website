@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 1px;
+}
+
 nav{
     display: flex;
     top: 0;
     position: fixed;
     width: 100vw;
-    height: 117px;
+    height: 117rem;
     background-color: transparent;
     justify-content: space-between;
     align-items: center;
-    padding: 0 55px;
+    padding: 0 55rem;
     z-index: 100;
 }
 
@@ -29,25 +33,25 @@ nav .btns{
 
 
 nav ul li{
-    margin-left: 89px;
+    margin-left: 89rem;
     font-family: "Poppins", sans-serif;
 }
 
 nav ul .red-btn{
-    width: 141px;
-    height: 48px;
+    width: 141rem;
+    height: 48rem;
     background: #C21C29;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Anton", sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 20rem;
 }
 
 nav ul img{
-    width: 77px;
-    height: 24px;
+    width: 77rem;
+    height: 24rem;
 }
 
 .page1{
@@ -59,14 +63,14 @@ nav ul img{
 }
 
 .page1 .soju-letters{
-    font-size: 700px;
+    font-size: 700rem;
     font-family: "Anton", sans-serif;
     color: #245930;
 }
 
 .page1 .soju-bottle{
-    width: 328.09px;
-    height: 872.72px;
+    width: 328.09rem;
+    height: 872.72rem;
     transform: rotate(29.04deg);
     position: absolute;
 }
@@ -80,25 +84,25 @@ nav ul img{
 }
 
 .page2 img{
-    width: 271.52px;
-    height: 722.25px;
-    margin-right: 228.27px;
-    margin-top: 50px;
+    width: 271.52rem;
+    height: 722.25rem;
+    margin-right: 228.27rem;
+    margin-top: 50rem;
 }
 
 .page2 .text{
-    width: 1023px;
-    height: 645px;
+    width: 1023rem;
+    height: 645rem;
     font-family: "Roboto";
-    font-size: 30px;
+    font-size: 30rem;
     color: #6F6E6D;
-    margin-left: 150px;
+    margin-left: 150rem;
 }
 
 .page2 .text .tittle{
-    width: 974px;
-    height: 344px;
-    font-size: 100px;
+    width: 974rem;
+    height: 344rem;
+    font-size: 100rem;
     font-family: "Anton", sans-serif;
     color: #245930;
     display: flex;
@@ -115,28 +119,28 @@ nav ul img{
 }
 
 .page3 img{
-    width: 271.52px;
-    height: 722.25px;
-    margin-right: 228.27px;
-    margin-top: 50px;
+    width: 271.52rem;
+    height: 722.25rem;
+    margin-right: 228.27rem;
+    margin-top: 50rem;
 }
 
 .page3 .text{
-    width: 1091px;
-    height: 457px;
+    width: 1091rem;
+    height: 457rem;
     font-family: "Roboto";
-    font-size: 30px;
+    font-size: 30rem;
     color: #6F6E6D;
-    margin-left: 150px;
+    margin-left: 150rem;
 }
 
 .page3 .text .tittle{
-    width: 1091px;
-    height: 386px;
-    font-size: 128px;
+    width: 1091rem;
+    height: 386rem;
+    font-size: 128rem;
     font-family: "Anton", sans-serif;
     color: #245930;
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 
