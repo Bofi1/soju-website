@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 117px;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 55px;
+    z-index: 100;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none
+}
+
+nav .btns{
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul li{
+    margin-left: 89px;
+    font-family: "Poppins", sans-serif;
+}
+
+nav ul .red-btn{
+    width: 141px;
+    height: 48px;
+    background: #C21C29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Anton", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul img{
+    width: 77px;
+    height: 24px;
+}
+
+.page1{
+    height: 100vh;
+    background-color: #FBF7EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1 .soju-letters{
+    font-size: 700px;
+    font-family: "Anton", sans-serif;
+    color: #245930;
+}
+
+.page1 .soju-bottle{
+    width: 328.09px;
+    height: 872.72px;
+    transform: rotate(29.04deg);
+    position: absolute;
+}
+
+.page2{
+    height: 100vh;
+    background-color: #FBF7EE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page2 img{
+    width: 271.52px;
+    height: 722.25px;
+    margin-right: 228.27px;
+    margin-top: 50px;
+}
+
+.page2 .text{
+    width: 1023px;
+    height: 645px;
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #6F6E6D;
+    margin-left: 150px;
+}
+
+.page2 .text .tittle{
+    width: 974px;
+    height: 344px;
+    font-size: 100px;
+    font-family: "Anton", sans-serif;
+    color: #245930;
+    display: flex;
+}
+
+
+
+.page3{
+    height: 100vh;
+    background-color: #FBF7EE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page3 img{
+    width: 271.52px;
+    height: 722.25px;
+    margin-right: 228.27px;
+    margin-top: 50px;
+}
+
+.page3 .text{
+    width: 1091px;
+    height: 457px;
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #6F6E6D;
+    margin-left: 150px;
+}
+
+.page3 .text .tittle{
+    width: 1091px;
+    height: 386px;
+    font-size: 128px;
+    font-family: "Anton", sans-serif;
+    color: #245930;
+    display: flex;
+    margin-bottom: 10px;
+}
+
