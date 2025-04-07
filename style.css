@@ -70,6 +70,7 @@ nav ul img{
     font-size: 700rem;
     font-family: "Anton", sans-serif;
     color: #245930;
+    opacity: 0;
 }
 
 .page1 .soju-bottle{
@@ -77,6 +78,8 @@ nav ul img{
     height: 872.72rem;
     transform: rotate(29.04deg);
     position: absolute;
+    opacity: 0;
+    margin-left: -100rem;
 }
 
 .page2{
