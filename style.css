@@ -144,3 +144,8 @@ nav ul img{
     margin-bottom: 10rem;
 }
 
+/* flavors font */
+@font-face {
+    font-family: 'caliban std'; /* Nombre que le darás a la fuente */
+    src: url('./fonts/caliban-std.otf') format('woff2');
+  }
