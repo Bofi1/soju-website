@@ -156,9 +156,11 @@ nav ul img{
 
 .page4{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 100vh;
     background-color: #FBF7EE;
+    /* background-color: #C21C29; */
 }
 
 .page4 .text{
@@ -168,7 +170,7 @@ nav ul img{
     /* background: red; */
     align-items: center;
     /* justify-content: center; */
-    margin-top: 80rem;
+    margin-top: 400rem;
 }
 
 .page4 .text .text-flavors{
@@ -191,40 +193,45 @@ nav ul img{
     /* width: 2027.39rem; */
     /* height: 1118.72rem; */
     background-color: transparent;
+    /* background-color: aqua; */
     display: flex;
-    position: absolute;
-    left: 0;
-    width: 2000rem;
+    position: relative;
+    /* width: 2rem; */
+    bottom: 400rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: start;
 }
 
 .page4 .bottles img{
-    position: absolute;
+    position: relative;
     width: 274.21rem;
     height: 700rem;
 }
 
 .page4 .bottles .fresh{
-    margin-left: 130.17rem;
-    margin-top: 50.22rem;
+    left: 100.17rem;
+    top: -50.22rem;
     transform: rotate(17.95deg);
 }
 
 .page4 .bottles .plum{
-    margin-left: 500.24rem;
-    margin-top: 250.82rem;
+    left: 150rem;
+    top: 170rem;
     transform: rotate(-37.42deg);
 }
 
 .page4 .bottles .green-grapes{
-    margin-left: 1200.97rem;
-    margin-top: 188.68rem;
-    transform: rotate(36.82deg);
+    left: 450rem;
+    top: 150rem;
+    transform: rotate(26.82deg);
     width: 300.21rem;
 }
 
 .page4 .bottles .grapefruit{
-    margin-left: 1568.09rem;
-    margin-top: 98.37rem;
+    left: 500rem;
+    /* margin-top: 98.37rem; */
     transform: rotate(-19.15deg);
     
 }
@@ -232,6 +239,7 @@ nav ul img{
 
 .page5{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 100vh;
     background-color: #FBF7EE;
@@ -269,8 +277,8 @@ nav ul img{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 4200rem;
+    position: relative;
+    /* top: 4200rem; */
 }
 
 .page5 .images .seven{
