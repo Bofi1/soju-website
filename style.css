@@ -8,6 +8,10 @@ html{
     font-size: 1px;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 nav{
     display: flex;
     top: 0;
@@ -148,4 +152,79 @@ nav ul img{
 @font-face {
     font-family: 'caliban std'; /* Nombre que le darás a la fuente */
     src: url('./fonts/caliban-std.otf') format('woff2');
-  }
+}
+
+.page4{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FBF7EE;
+}
+
+.page4 .text{
+    height: 420rem;
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 60rem;
+}
+
+.page4 .text .text-flavors{
+    font-family: 'Pacifico', sans-serif;
+    color: #245930;
+    font-size: 64rem;
+    position: relative;
+}
+
+.page4 .text .text-soju{
+    font-family: 'Anton', sans-serif;
+    color: #245930;
+    font-size: 300rem;
+    position: relative;
+    /* background: #6F6E6D; */
+    top: -60rem;
+}
+
+.page4 .bottles{
+    /* width: 2027.39rem; */
+    /* height: 1118.72rem; */
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    left: 0;
+    width: 2000rem;
+}
+
+.page4 .bottles img{
+    position: absolute;
+    width: 274.21rem;
+    height: 700rem;
+}
+
+.page4 .bottles .fresh{
+    margin-left: 130.17rem;
+    margin-top: 50.22rem;
+    transform: rotate(17.95deg);
+}
+
+.page4 .bottles .plum{
+    margin-left: 482.24rem;
+    margin-top: 200.82rem;
+    transform: rotate(-37.42deg);
+}
+
+.page4 .bottles .green-grapes{
+    margin-left: 1109.97rem;
+    margin-top: 188.68rem;
+    transform: rotate(36.82deg);
+    width: 300.21rem;
+}
+
+.page4 .bottles .grapefruit{
+    margin-left: 1568.09rem;
+    margin-top: 98.37rem;
+    transform: rotate(-19.15deg);
+    
+}
