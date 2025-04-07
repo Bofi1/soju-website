@@ -70,7 +70,10 @@ nav ul img{
     font-size: 700rem;
     font-family: "Anton", sans-serif;
     color: #245930;
-    opacity: 0;
+    opacity: 1;
+    /* background: red; */
+    position: absolute;
+    margin-left: 100px;
 }
 
 .page1 .soju-bottle{
@@ -93,7 +96,7 @@ nav ul img{
 .page2 img{
     width: 271.52rem;
     height: 722.25rem;
-    margin-right: 228.27rem;
+    margin-right: 240.27rem;
     margin-top: 50rem;
 }
 
@@ -161,6 +164,7 @@ nav ul img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     background-color: #FBF7EE;
     /* background-color: #C21C29; */
@@ -193,7 +197,7 @@ nav ul img{
 }
 
 .page4 .bottles{
-    /* width: 2027.39rem; */
+    width: 1000rem;
     /* height: 1118.72rem; */
     background-color: transparent;
     /* background-color: aqua; */
@@ -203,8 +207,7 @@ nav ul img{
     bottom: 400rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    align-self: start;
+
 }
 
 .page4 .bottles img{
@@ -214,27 +217,27 @@ nav ul img{
 }
 
 .page4 .bottles .fresh{
-    left: 100.17rem;
+    left: -310rem;
     top: -50.22rem;
     transform: rotate(17.95deg);
 }
 
 .page4 .bottles .plum{
-    left: 150rem;
-    top: 170rem;
+    left: -200rem;
+    top: 200rem;
     transform: rotate(-37.42deg);
 }
 
 .page4 .bottles .green-grapes{
-    left: 450rem;
+    left: 200rem;
     top: 150rem;
     transform: rotate(26.82deg);
     width: 300.21rem;
 }
 
 .page4 .bottles .grapefruit{
-    left: 500rem;
-    /* margin-top: 98.37rem; */
+    left: 300rem;
+    margin-top: -200rem;
     transform: rotate(-19.15deg);
     
 }
@@ -244,6 +247,7 @@ nav ul img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     background-color: #FBF7EE;
 }
@@ -281,7 +285,7 @@ nav ul img{
     justify-content: center;
     align-items: center;
     position: relative;
-    /* top: 4200rem; */
+    margin-top: 100rem;
 }
 
 .page5 .images .seven{
@@ -306,3 +310,4 @@ nav ul img{
     width: 375rem;
     height: 92rem;
 }
+

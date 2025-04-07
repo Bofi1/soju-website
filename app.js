@@ -10,6 +10,7 @@ gsap.to(".soju-bottle", {
 })
 
 gsap.to("#soju-letters", {
+    x: -100,
     opacity: 1,
     scrolltrigger: {
         trigger: "#soju-letters",
