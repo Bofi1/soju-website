@@ -323,3 +323,6 @@ nav ul img{
     margin-top: -100rem;
 } */
 
+a{
+    text-decoration: none;
+}
