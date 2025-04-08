@@ -1,11 +1,9 @@
 gsap.registerPlugin(ScrollTrigger);
 
-
-// always refresh on top
-if ('scrollRestoration' in history) {
-    history.scrollRestoration = 'manual';
-  }
-  window.scrollTo(0, 0);
+// f5 always on top
+window.addEventListener('beforeunload', function () {
+    window.scrollTo(0, 0);
+});
 
 
 
