@@ -52,3 +52,5 @@ gsap.to("#tittlepin", {
         pin: true
     }
 })
+
+

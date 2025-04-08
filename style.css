@@ -8,7 +8,9 @@ html{
     font-size: 1px;
 }
 
-
+/* body{
+    background-color: #FBF7EE;
+} */
 
 nav{
     display: flex;
@@ -169,16 +171,18 @@ nav ul img{
     height: 100vh;
     background-color: #FBF7EE;
     /* background-color: #C21C29; */
+    /* margin-top: 200px; */
 }
 
 .page4 .text{
     height: 420rem;
     display: flex;
     flex-direction: column;
-    /* background: red; */
+    /* background: pink; */
     align-items: center;
     /* justify-content: center; */
-    margin-top: 400rem;
+    /* margin-bottom: 300rem; */
+    margin-top: 200rem;
 }
 
 .page4 .text .text-flavors{
@@ -215,6 +219,7 @@ nav ul img{
     position: relative;
     width: 274.21rem;
     height: 700rem;
+    margin-top: 100rem;
 }
 
 .page4 .bottles .fresh{
@@ -230,7 +235,7 @@ nav ul img{
 }
 
 .page4 .bottles .green-grapes{
-    left: 200rem;
+    left: 250rem;
     top: 150rem;
     transform: rotate(26.82deg);
     width: 300.21rem;
@@ -238,7 +243,7 @@ nav ul img{
 
 .page4 .bottles .grapefruit{
     left: 300rem;
-    margin-top: -200rem;
+    top: -200rem;
     transform: rotate(-19.15deg);
     
 }
@@ -311,4 +316,9 @@ nav ul img{
     width: 375rem;
     height: 92rem;
 }
+
+/* .bt{
+    opacity: 0;
+    margin-top: -100rem;
+} */
 
