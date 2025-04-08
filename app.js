@@ -44,7 +44,7 @@ gsap.to(".soju-bottle", {
 gsap.to("#tittlepin", {
     scrollTrigger: {
         trigger: ".soju-bottle",
-        markers: false,
+        markers: true,
         start: "52% center",
         end: "180% center",
         pin: true
