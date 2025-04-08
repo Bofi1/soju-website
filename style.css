@@ -8,9 +8,7 @@ html{
     font-size: 1px;
 }
 
-body{
-    overflow-x: hidden;
-}
+
 
 nav{
     display: flex;
@@ -83,6 +81,7 @@ nav ul img{
     position: absolute;
     opacity: 0;
     margin-left: -100rem;
+    z-index: 1000;
 }
 
 .page2{
@@ -98,6 +97,7 @@ nav ul img{
     height: 722.25rem;
     margin-right: 240.27rem;
     margin-top: 50rem;
+    visibility: hidden;
 }
 
 .page2 .text{
@@ -133,6 +133,7 @@ nav ul img{
     height: 722.25rem;
     margin-right: 228.27rem;
     margin-top: 50rem;
+    visibility: hidden;
 }
 
 .page3 .text{
