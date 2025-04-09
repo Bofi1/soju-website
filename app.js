@@ -5,6 +5,9 @@ window.addEventListener('beforeunload', function () {
     window.scrollTo(0, 0);
 });
 
+window.addEventListener('resize', () => {
+    ScrollTrigger.refresh();
+  });  
 
 
 // first page animation
@@ -35,19 +38,21 @@ gsap.to(".soju-bottle", {
         trigger: ".soju-bottle",
         markers: false,
         start: "center center",
-        end: "180% center",
+        endTrigger: "#text",
+        end: "50% center",
         pin: true,
         scrub: true
     }
 })
 
-gsap.to("#tittlepin", {
+gsap.to(".soju-bottle", {
+    pin: true,
     scrollTrigger: {
-        trigger: ".soju-bottle",
-        markers: false,
-        start: "52% center",
-        end: "180% center",
-        pin: true
+        trigger: "#text",
+        markers: true,
+        start: "50% center",
+        endTrigger: "#text2",
+        end: "center center",
     }
 })
 
