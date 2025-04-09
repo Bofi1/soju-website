@@ -6,6 +6,71 @@
 
   @media screen and (max-width: 1519px) {
     html {
+      font-size: 0.7px;
+    }
+
+    nav {
+      height: 217rem;
+    }
+
+    nav ul .red-btn{
+      width: 241rem;
+      height: 118rem;
+      font-size: 40rem;
+
+    }
+
+      nav ul img{
+        width: 200rem;
+        height: 63rem;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    html {
+      font-size: 0.5px;
+    }
+  }
+
+  @media screen and (max-width: 969px) {
+    html {
       font-size: 0.2px;
     }
+  }
+
+
+  @media screen and (max-width: 376px) {
+    html {
+      font-size: 0.2px;
+    }
+
+    nav {
+      height: 417rem;
+    }
+
+    nav ul .red-btn{
+      width: 291rem;
+      height: 168rem;
+      font-size: 40rem;
+
+    }
+
+      nav ul img{
+        width: 300rem;
+        height: 94rem;
+    }
+
+    .page1 .soju-letters{
+      font-size: 500rem;
+    }
+
+    .page1 .soju-letters{
+      font-size: 800rem;
+  }
+
+    .page1 .soju-bottle{
+      width: 360rem;
+      height: 957.6rem;
+    }
+    
   }
