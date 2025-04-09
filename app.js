@@ -5,14 +5,15 @@ window.addEventListener('beforeunload', function () {
     window.scrollTo(0, 0);
 });
 
+
 window.addEventListener('resize', () => {
     ScrollTrigger.refresh();
-  });  
+});  
 
 
 // first page animation
 gsap.to("#soju-letters", {
-    x: "-100rem",
+    x: 0,
     opacity: 1,
     scrolltrigger: {
         trigger: "#soju-letters",
@@ -20,8 +21,9 @@ gsap.to("#soju-letters", {
 })
 
 gsap.to(".soju-bottle", {
+    x:"100rem",
     opacity: 1,
-    duration: 1,
+    // duration: 1,
     scrollTrigger: {
         trigger: ".soju-bottle",
     }
@@ -35,25 +37,33 @@ gsap.to(".soju-bottle", {
     scale: 0.8,
     rotate: 0,
     scrollTrigger: {
-        trigger: ".soju-bottle",
-        markers: false,
-        start: "center center",
+        trigger: "#soju-letters",
         endTrigger: "#text",
+        start: "50% center",
         end: "50% center",
-        pin: true,
+        markers: true,
+        // pin: true,
         scrub: true
     }
 })
 
-gsap.to(".soju-bottle", {
-    pin: true,
-    scrollTrigger: {
-        trigger: "#text",
-        markers: true,
-        start: "50% center",
-        endTrigger: "#text2",
-        end: "center center",
-    }
-})
+ScrollTrigger.create({
+    trigger: "#soju-letters",
+    endTrigger: "#text",
+    start: "50% center",
+    end: "50% center",
+    pin: ".soju-bottle",
+    markers: false
+  });
+
+ScrollTrigger.create({
+    trigger: "#text",
+    endTrigger: "#text2",
+    start: "50% center",
+    end: "center center",
+    pin: ".soju-bottle",
+    markers: false
+  });
+  
 
 

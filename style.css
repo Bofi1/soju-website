@@ -74,16 +74,15 @@ nav ul img{
     opacity: 1;
     /* background: red; */
     position: absolute;
-    margin-left: 100px;
+    transform: translateX(100rem);
 }
 
 .page1 .soju-bottle{
     width: 328.09rem;
     height: 872.72rem;
-    transform: rotate(29.04deg);
+    transform: rotate(29.04deg) translateX(-100rem);
     position: absolute;
     opacity: 0;
-    margin-left: -100rem;
     z-index: 1000;
 }
 
