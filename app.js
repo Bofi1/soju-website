@@ -1,14 +1,10 @@
 gsap.registerPlugin(ScrollTrigger);
 
-// f5 always on top
+
+    // f5 always on top
 window.addEventListener('beforeunload', function () {
     window.scrollTo(0, 0);
 });
-
-
-window.addEventListener('resize', () => {
-    ScrollTrigger.refresh();
-});  
 
 
 if (window.innerWidth > 600) {
@@ -107,7 +103,7 @@ gsap.to(".soju-bottle", {
         endTrigger: "#text",
         start: "50% center",
         end: "50% center",
-        markers: true,
+        markers: false,
         // pin: true,
         scrub: true
     }
@@ -119,22 +115,17 @@ ScrollTrigger.create({
     start: "50% center",
     end: "50% center",
     pin: ".soju-bottle",
-    markers: true
+    markers: false
   });
 
 ScrollTrigger.create({
     trigger: "#text",
     endTrigger: "#text2",
     start: "50% center",
-    end: "50% center",
+    end: "center center",
     pin: ".soju-bottle",
-    markers: true
+    markers: false
   });
 }
 
-
-
-
   
-
-
