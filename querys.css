@@ -72,5 +72,27 @@
       width: 360rem;
       height: 957.6rem;
     }
+
+        /* ------- */
     
+    .page2 .text .tittle{
+      font-size: 200rem;
+      margin-top: -100rem;
+      margin-bottom: 200rem;
+    }
+
+    .page2 .text p{
+      font-size: 65rem;
+    }
+
+    .page3 .smallText{
+      display: none;
+  }
+
+    .page3 .text .tittle{
+      margin-top: -300rem;
+      font-size: 240rem;
+    }
+
+
   }

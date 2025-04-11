@@ -86,6 +86,7 @@ nav ul img{
 .page2{
     height: 100vh;
     background-color: #FBF7EE;
+    /* background: rebeccapurple; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,7 +102,7 @@ nav ul img{
 
 .page2 .text{
     width: 1023rem;
-    height: 645rem;
+    /* height: 645rem; */
     font-family: "Roboto";
     font-size: 30rem;
     color: #6F6E6D;
@@ -109,8 +110,7 @@ nav ul img{
 }
 
 .page2 .text .tittle{
-    width: 974rem;
-    height: 344rem;
+    /* width: 974rem; */
     font-size: 100rem;
     font-family: "Anton", sans-serif;
     color: #245930;
@@ -137,7 +137,7 @@ nav ul img{
 
 .page3 .text{
     width: 1091rem;
-    height: 457rem;
+    /* height: 457rem; */
     font-family: "Roboto";
     font-size: 30rem;
     color: #6F6E6D;
@@ -146,7 +146,7 @@ nav ul img{
 
 .page3 .text .tittle{
     width: 1091rem;
-    height: 386rem;
+    /* height: 386rem; */
     font-size: 128rem;
     font-family: "Anton", sans-serif;
     color: #245930;
