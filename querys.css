@@ -95,7 +95,7 @@
     }
     
     .page4{
-      background-color: red;
+      /* background-color: red; */
     }
 
     .page4 img{
@@ -111,7 +111,7 @@
     }
 
     .page4 .text{
-      /* margin-top: -600rem; */
+      margin-bottom: 50rem;
     }
 
     .page4 .bottles{
@@ -134,6 +134,18 @@
 
     .page4 .bottles .grapefruit{
       top: -100rem !important;
+    }
+
+    .page5 .text .text-flavors{
+      font-size: 100rem;
+    }
+
+    .page5 .text .text-soju{
+      font-size: 700rem;
+    }
+
+    .page5 .text{
+      margin-bottom: 800rem;
     }
 
   }
