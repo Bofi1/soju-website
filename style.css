@@ -172,7 +172,6 @@ nav ul img{
 }
 
 .page4 .text{
-    height: 420rem;
     display: flex;
     flex-direction: column;
     /* background: pink; */
@@ -242,7 +241,6 @@ nav ul img{
     left: 300rem;
     top: -200rem;
     transform: rotate(-19.15deg);
-    
 }
 
 

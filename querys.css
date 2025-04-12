@@ -1,4 +1,4 @@
-@media screen and (max-width: 1919px) {
+@media screen and (max-width: 3000px) {
     html {
       font-size: 0.8px;
     }
@@ -77,8 +77,8 @@
     
     .page2 .text .tittle{
       font-size: 200rem;
-      margin-top: -100rem;
-      margin-bottom: 200rem;
+      margin-top: 500rem;
+      margin-bottom: 100rem;
     }
 
     .page2 .text p{
@@ -87,12 +87,53 @@
 
     .page3 .smallText{
       display: none;
-  }
+    }
 
     .page3 .text .tittle{
       margin-top: -300rem;
       font-size: 240rem;
     }
+    
+    .page4{
+      background-color: red;
+    }
 
+    .page4 img{
+      /* display: none; */
+    }
+
+    .page4 .text .text-flavors{
+      font-size: 100rem;
+    }
+
+    .page4 .text .text-soju{
+      font-size: 600rem;
+    }
+
+    .page4 .text{
+      /* margin-top: -600rem; */
+    }
+
+    .page4 .bottles{
+      bottom: 0;
+      margin-top: -200rem;
+    }
+
+    .bt{
+      transform: rotate(0deg) !important;
+      width: 440rem !important;
+      height: 965rem !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+    }
+
+    .page4 .bottles .plum{
+      top: 100rem !important;
+    }
+
+    .page4 .bottles .grapefruit{
+      top: -100rem !important;
+    }
 
   }
