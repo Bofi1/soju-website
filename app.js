@@ -1,7 +1,7 @@
-gsap.registerPlugin(ScrollTrigger);
 
-
-    //f5 always on top
+  document.addEventListener("DOMContentLoaded", function() {
+    gsap.registerPlugin(ScrollTrigger);
+        //f5 always on top
 window.addEventListener('beforeunload', function () {
     window.scrollTo(0, 0);
 });
@@ -9,7 +9,9 @@ window.addEventListener('beforeunload', function () {
 
 if (window.innerWidth > 600) {
 
-    console.log(window.innerWidth);
+    window.addEventListener('beforeunload', function () {
+        window.scrollTo(0, 0);
+    });
     
 
     // first page animation
@@ -74,6 +76,11 @@ ScrollTrigger.create({
 
 
 if (window.innerWidth < 600) {
+
+    window.addEventListener('beforeunload', function () {
+        window.scrollTo(0, 0);
+    });
+
         // first page animation
 gsap.to("#soju-letters", {
     x: 0,
@@ -127,5 +134,4 @@ ScrollTrigger.create({
     markers: false
   });
 }
-
-  
+});

@@ -49,6 +49,8 @@ nav ul .red-btn{
     font-family: "Anton", sans-serif;
     color: white;
     font-size: 20rem;
+    position: relative;
+    z-index: 10000;
 }
 
 nav ul img{
