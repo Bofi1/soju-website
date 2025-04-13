@@ -50,7 +50,7 @@ nav ul .red-btn{
     color: white;
     font-size: 20rem;
     position: relative;
-    z-index: 10000;
+    z-index: 10000 !important;
 }
 
 nav ul img{
